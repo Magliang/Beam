@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Operation OS</title>
+        <link rel="shortcut icon" href="img/favicon_16x16.ico">
+        <link rel="Bookmark" href="img/favicon_32x32.ico">
+        <link rel="stylesheet" href="css/operation.css">
+        <link rel="stylesheet" href="css/functionStyle.css">
+    </head>
+    <body>
+        <main>
+            <!--桌面-->
+            <section>
+                <!--菜单-->
+                <div class="menusItem">
+                    <img class="userIcon" src="img/Qico/hb.png">
+                    <span class="systemTi">你好！</span>
+                    <span class="userName">用户昵称</span>
+                    <!--菜单应用列表-->
+                    <div class="meunsContent">
+                        <dl>
+                            <dt>
+                                <img src="img/Qico/lks.png" alt="">
+                                <span>谁的电脑</span>
+                            </dt>
+                            <dt>
+                                <img src="img/Qico/fn1.png" alt="">
+                                <span>回收站</span>
+                            </dt>
+                            <dt>
+                                <img src="img/Qico/nj.png" alt="">
+                                <span>网络</span>
+                            </dt>
+                            <dt>
+                                <img src="img/Qico/zm.png" alt="">
+                                <span>360浏览器</span>
+                            </dt>
+                            <dt>
+                                <img src="img/Qico/kp.png" alt="">
+                                <span>QQ</span>
+                            </dt>
+                            <dt>
+                                <img src="img/Qico/ky.png" alt="">
+                                <span>QQ音乐</span>
+                            </dt>
+                            <dt>
+                                <img src="img/Qico/slk1.png" alt="">
+                                <span>腾讯视屏</span>
+                            </dt>
+                            <dt>
+                                <img src="img/Qico/cz.png" alt="">
+                                <span>火狐</span>
+                            </dt>
+                            <dt>
+                                <img src="img/Qico/ft.png" alt="">
+                                <span>谷歌</span>
+                            </dt>
+                            <dt>
+                                <img src="img/File.png" alt="">
+                                <span>我的文件夹</span>
+                            </dt>
+                        </dl>
+                    </div>
+                </div>
+                <!--桌面窗口及应用-->
+                <div class="desktop">
+                    <!--模拟应用程序-->
+                    <div class="app">
+                        <img src="img/Qico/lks.png" alt="">
+                        <span>谁的电脑</span>
+                    </div>
+                    <div class="app">
+                        <img src="img/Qico/fn1.png" alt="">
+                        <span>回收站</span>
+                    </div>
+                    <div class="app">
+                        <img src="img/Qico/nj.png" alt="">
+                        <span>网络</span>
+                    </div>
+                    <div class="app">
+                        <img src="img/Qico/zm.png" alt="">
+                        <span>360浏览器</span>
+                    </div>
+                    <div class="app">
+                        <img src="img/Qico/kp.png" alt="">
+                        <span>QQ</span>
+                    </div>
+                    <div class="app">
+                        <img src="img/Qico/ky.png" alt="">
+                        <span>QQ音乐</span>
+                    </div>
+                    <div class="app">
+                        <img src="img/Qico/slk1.png" alt="">
+                        <span>腾讯视频</span>
+                    </div>
+                    <div class="app">
+                        <img src="img/Qico/cz.png" alt="">
+                        <span>火狐</span>
+                    </div>
+                    <div class="app">
+                        <img src="img/Qico/ft.png" alt="">
+                        <span>谷歌</span>
+                    </div>
+                    <div class="app">
+                        <img src="img/File.png" alt="">
+                        <span>我的文件夹</span>
+                    </div>
+                    <!--鼠标右键列表-->
+                    <div id="mouseRightBut">
+                        <ul>
+                            <li>
+                                新建
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;>
+                            </li>
+                            <li class="icoBig">大图标</li>
+                            <li class="icoMiddle">中图标</li>
+                            <li class="icoSmall">小图标</li>
+                            <li class="changeBgimg">更换壁纸</li>
+                            <li>修改分辨率(暂不可用)</li>
+                            <li class="cuser">切换用户</li>
+                            <li class="systemOFF">关闭系统(调试中...)</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--应用窗口-->
+                <div class="appWindow">
+                    <div class="appWinTl">
+                        <span class="appOFF">×</span>
+                        <span class="appBig">□</span>
+                        <span class="appSmall">-</span>
+                        <span class="appName"></span>
+                        <span class="appHint">暂时只支持打开360浏览器、QQ、QQ音乐、腾讯视屏</span>
+                    </div>
+                    <iframe></iframe>
+                </div>
+            </section>
+            <!--任务栏-->
+            <footer>
+                <!--开始按钮-->
+                <div class="menus"></div>
+                <!--系统时间-->
+                <div class="systemTime">
+                    <span class="time"></span>
+                    <span class="date"></span>
+                </div>
+            </footer>
+        </main>
+        <script src="js/jquery-3.2.0.js"></script>
+        <script src="js/operation.js"></script>
+    </body>
+</html>
