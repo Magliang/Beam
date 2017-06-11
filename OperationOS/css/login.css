@@ -1,0 +1,248 @@
+@charset "utf-8";
+
+/*初始化*/
+hrml,body,main,section,div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html,body,main{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/bg-1.jpg);
+    background-position: center;
+    background-size: cover;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+i,a,li{
+    font-style: normal;
+    list-style: none;
+}
+
+/*门*/
+.Door{
+    width: 100%;
+    height: calc(100% / 2);
+    float: left;
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+
+    /*    display: none;*/
+}
+.up{
+    margin-bottom: -1px;
+}
+.down{
+    margin-top: -1px;
+}
+.up i{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/bg_top_3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.down i{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/bg_bottom_3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+/*系统时间*/
+.systemTime {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 30px;
+    color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+.systemTime span{
+    display: block;
+    font-size: 70px;
+}
+/*用户登录界面*/
+.userLogin{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    left: calc(50% - 250px);
+    top: calc(45% - 100px);
+    text-align: center;
+    border: 1px solid #696969;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1px 5px 0px rgba(255, 255, 255, 0.5);
+    z-index: 3;
+
+    /*    display: none;*/
+}
+/*用户头像*/
+.userLogin img{
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+/*提示语句*/
+.userLogin span{
+    height: 19px;
+    display:block;
+    font: 8px "微软雅黑";
+    position: relative;
+    top: -71px;
+    color: #fff;
+    opacity: 0;
+
+    /*        border: 1px solid red;*/
+}
+/*昵称/密码 input*/
+.userInfo input{
+    position: relative;
+    width: 200px;
+    height: 25px;
+    margin-bottom: 0px;
+    font: 18px "微软雅黑";
+    text-align: center;
+    outline: none;
+    z-index: 3;
+}
+.userInfo input:nth-child(1){
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.userInfo input:nth-child(3){
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.hint{
+    text-shadow: 1px 1px #000;
+}
+.wait{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: calc(45% - 200px);
+    text-align: center;
+
+    /*    border: 1px solid red;*/
+}
+.wait span{
+    display: block;
+    position: relative;
+    font: 20px "微软雅黑";
+    color: #fff;
+    z-index: 1;
+}
+.wait span:nth-child(1){
+    height: 80px;
+    font-size: 80px;
+    line-height: 80px;
+    margin-bottom: 40px;
+
+    /*    border: 1px solid yellow;*/
+}
+.wait span:nth-child(2){
+    height: 70px;
+    font-size: 50px;
+    line-height: 50px;
+    color: #ff9d00;
+
+    /*    border: 1px solid blue;*/
+}
+.wait span:nth-child(4){
+    color: aquamarine;
+    font-size: 14px;
+}
+.wait img{
+    margin-top: 50px;
+
+    /*    border: 1px solid #fff;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
